@@ -84,64 +84,90 @@
 // }
 // console.log(c);
 
-var a = 2.4 ;
-var b = 25;
-console.log( 'Math.round '+ Math.round(a));
-console.log( 'Math.floor '+ Math.floor(a));
-console.log( 'Math.ceil '+ Math.ceil(a));
-console.log( 'Math.trunc '+ Math.trunc(a));
-console.log( 'Math.sqrt '+ Math.sqrt(b));
-console.log( 'Math.abs '+ Math.abs(-4));
-console.log( 'Math.pow '+ Math.pow(4,2));
-console.log( 'Math.random '+ Math.random());
-console.log( 'Math.min '+ Math.min(1,3,2));
-console.log( 'Math.max '+ Math.max(1,3,2));
+// var a = 2.4 ;
+// var b = 25;
+// console.log( 'Math.round '+ Math.round(a));
+// console.log( 'Math.floor '+ Math.floor(a));
+// console.log( 'Math.ceil '+ Math.ceil(a));
+// console.log( 'Math.trunc '+ Math.trunc(a));
+// console.log( 'Math.sqrt '+ Math.sqrt(b));
+// console.log( 'Math.abs '+ Math.abs(-4));
+// console.log( 'Math.pow '+ Math.pow(4,2));
+// console.log( 'Math.random '+ Math.random());
+// console.log( 'Math.min '+ Math.min(1,3,2));
+// console.log( 'Math.max '+ Math.max(1,3,2));
 
-var d = new Date()
-console.log(d);
+// var d = new Date()
+// console.log(d);
 
-d.setDate(22)
-d.setTime(12)
+// d.setDate(22)
+// d.setTime(12)
 
-console.log(d);
+// console.log(d);
 
-var e = d.getDate();
-console.log('Date ', e);
+// var e = d.getDate();
+// console.log('Date ', e);
 
-var f = d.getFullYear();
-console.log('FullYear ', f);
+// var f = d.getFullYear();
+// console.log('FullYear ', f);
 
-var g = d.getHours();
-console.log('Hours ', g);
+// var g = d.getHours();
+// console.log('Hours ', g);
 
-var h = d.getMilliseconds();
-console.log('Seconds ', h);
+// var h = d.getMilliseconds();
+// console.log('Seconds ', h);
 
-var i = d.getMonth();
-console.log('Month', i);
+// var i = d.getMonth();
+// console.log('Month', i);
 
- d.setDate(22);
-console.log('Date ',d.getDate());
+//  d.setDate(22);
+// console.log('Date ',d.getDate());
 
-d.setFullYear(2025);
-console.log('year', d.getFullYear());
+// d.setFullYear(2025);
+// console.log('year', d.getFullYear());
 
-d.setHours(6);
-console.log('Houre ',d.getHours());
+// d.setHours(6);
+// console.log('Houre ',d.getHours());
 
-d.setMilliseconds(500);
-console.log('Date ',d.getMilliseconds());
+// d.setMilliseconds(500);
+// console.log('Date ',d.getMilliseconds());
 
-d.setMonth(1);
-console.log('Date ',d.getMonth());
+// d.setMonth(1);
+// console.log('Date ',d.getMonth());
 
+// var a = [1,2,3,4,5,6]
+// //output [4,5,6,1,2,3]
+// var b = a.slice(3,6);
+// var c = a.slice(0,3);
+// var d = b.concat(c);
+// console.log(d);
 
+// var a = '123456';
+// var b ='';
+// // output 214365;
+// for(i = 0;i<a.length;i++){
+//     if(a[i]%2==0){
+//        b +=parseInt(a[i])-1;
+//     }
+//     else if(a[i]%2 == 1){
+//        b +=parseInt(a[i])+1;
+//     }
+// }
+// console.log(b);
 
+// var a = 'http://www.youtube.com';
 
+// //output http www youtube com
 
+// var b = a.split('://')
+// result1 = b[0];
+// var c = b[1];
+// var d = c.split('.') 
+// result2 = d[0];
+// result3 = d[1];
+// result4 = d[2];
 
-
-
-
-
-
+// console.log(result1);
+// console.log(result2);
+// console.log(result3);
+// console.log(result4);
