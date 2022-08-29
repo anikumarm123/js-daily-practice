@@ -171,3 +171,65 @@
 // console.log(result2);
 // console.log(result3);
 // console.log(result4);
+
+// var result = [];
+// var b = []
+
+// for(i=0;i<200;i++){
+//     if(i%8==0){
+//        b.push(i)
+       
+//     }
+// }
+// for (var i= 0;i<b.length;i++){      
+//          c = b[i]%10;
+//          d =Math.floor(b[i]/10);
+         
+//          if(d < c){
+//              result.push(b[i])
+//          }
+//          if(b[i] > 100){
+//             e = b[i] - 100
+//             f = e%10;
+//             d =Math.floor(e/10);
+//             if(d<f){
+//               result.push(b[i]);
+//             }   
+//          }
+
+// }
+// console.log(result)
+
+
+// var a =['rahul','muthu','kumar','gri'];
+
+// for(let i = 0;i <a.length;i++){
+//     let b = a[i];
+//     let c = b.split('')
+    
+//     let result =[]
+//     for(j = 0; j < c.length;j++){
+//         if(c[j]=='a'|| c[j]=='e'||c[j]=='i'||c[j]=='o'||c[j]=='u'){
+//             result.push(c[j]);
+//         }
+//     }
+//     if(result.length == 2){
+//         console.log(a[i]);
+//     }
+// }
+
+
+// var a = [12,34,21,57,33];
+// var b = [133,754,9875];
+// let c = a.concat(b);
+
+
+
+
+
+
+
+
+
+
+
