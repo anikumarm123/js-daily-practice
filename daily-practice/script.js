@@ -222,14 +222,55 @@
 // var a = [12,34,21,57,33];
 // var b = [133,754,9875];
 // let c = a.concat(b);
+// var d = c.sort((x,y)=>{
+//     console.log(x);
+//     console.log(y);
+//     return x-y
+// })
+// console.log(d);
 
+// var a = 'muthukumar';
+// for(i = 0;i < a.length;i++){
+//     var d = 0;
+//     for(j = 0;j < a.length;j++){
+//         if(a[i]==a[j]){
+//           d++
+//         }
+//     }
+//     if(d == 1){
+//         console.log(a[i])
+//     }
+// }
 
+// var num = prompt('Enter Number');
+// var b = 0;
+// for(i = 0;i<num.length;i++){
+// if(num[i]%2==1){
+//     b += parseInt(num[i])
+// }
+// }
+// console.log(b);
 
+// var num = prompt('Enter Number');
+// var b = 0;
+// for(i = 0;i <num.length;i++){
+//     if(num[i]> 0 || num < 9){
+//         if(num[i]%2==1){
+//                  b += parseInt(num[i])
+//             }
+//     }
+// }
 
+// var a = [4,5,6,7,9];
+// // o/p [4,9,15,22,31]
+// var result =[]
 
+// var n = 0;
+// for(i = 0;i<a.length;i++){
+//    n += a[i]
+//    result.push(n)
+// }
 
-
-
-
+// console.log(result);
 
 
